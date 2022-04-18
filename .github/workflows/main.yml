@@ -102,7 +102,7 @@ jobs:
           chmod +x sh/ch11.sh
           ./sh/ch11.sh         
 
-     - name: Main
+      - name: Main
         run: |
           pwd
           chmod +x sh/ch12.sh
