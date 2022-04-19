@@ -190,6 +190,18 @@ jobs:
       - name: Main
         run: |
           pwd
+          chmod +x sh/ch26.sh
+          ./sh/ch26.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch27.sh
+          ./sh/ch27.sh
+          
+      - name: Main
+        run: |
+          pwd
           chmod +x sh/learnen1.sh
           ./sh/learnen1.sh
           
