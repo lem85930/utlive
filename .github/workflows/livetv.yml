@@ -281,6 +281,24 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
         $(youtube-dl -g https://www.youtube.com/watch?v=m01az_TdpQI)
         EOL
+    - name: Get foxlivenow.m3u8
+      run: |
+        touch ./foxlivenow.m3u8
+        sudo cat >./foxlivenow.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
+        $(youtube-dl -g https://www.youtube.com/watch?v=-u6evmFGFbo)
+        EOL
+    - name: Get nbcnewsnow.m3u8
+      run: |
+        touch ./nbcnewsnow.m3u8
+        sudo cat >./nbcnewsnow.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
+        $(youtube-dl -g https://www.youtube.com/watch?v=TYzwo74tpKA)
+        EOL
     - name: Get issviewearth.m3u8
       run: |
         touch ./issviewearth.m3u8
