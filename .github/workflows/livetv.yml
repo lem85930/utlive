@@ -288,7 +288,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
-        $(youtube-dl -g https://www.youtube.com/watch?v=-u6evmFGFbo)
+        $(youtube-dl -g https://www.youtube.com/watch?v=XvoAFyEEKaU)
         EOL
     - name: Get nbcnewsnow.m3u8
       run: |
@@ -297,7 +297,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=540000
-        $(youtube-dl -g https://www.youtube.com/watch?v=TYzwo74tpKA)
+        $(youtube-dl -g https://www.youtube.com/watch?v=Brf1ACFUsP4)
         EOL
     - name: Get issviewearth.m3u8
       run: |
