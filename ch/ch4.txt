@@ -2,4 +2,4 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 Arirang News |  |  |
-https://www.youtube.com/watch?v=APlvA2wtdKk
+https://www.youtube.com/user/arirang/live
