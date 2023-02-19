@@ -202,38 +202,80 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x sh/learnen1.sh
-          ./sh/learnen1.sh
+          chmod +x sh/ch28.sh
+          ./sh/ch28.sh
           
       - name: Main
         run: |
           pwd
-          chmod +x sh/learnen2.sh
-          ./sh/learnen2.sh
+          chmod +x sh/ch29.sh
+          ./sh/ch29.sh
           
       - name: Main
         run: |
           pwd
-          chmod +x sh/learnen3.sh
-          ./sh/learnen3.sh
+          chmod +x sh/ch30.sh
+          ./sh/ch30.sh
           
       - name: Main
         run: |
           pwd
-          chmod +x sh/learnjp1.sh
-          ./sh/learnjp1.sh
+          chmod +x sh/ch31.sh
+          ./sh/ch31.sh
           
       - name: Main
         run: |
           pwd
-          chmod +x sh/learnjp2.sh
-          ./sh/learnjp2.sh
+          chmod +x sh/ch32.sh
+          ./sh/ch32.sh
           
       - name: Main
         run: |
           pwd
-          chmod +x sh/learnjp3.sh
-          ./sh/learnjp3.sh
+          chmod +x sh/ch33.sh
+          ./sh/ch33.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch34.sh
+          ./sh/ch34.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch35.sh
+          ./sh/ch35.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch36.sh
+          ./sh/ch36.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch37.sh
+          ./sh/ch37.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch38.sh
+          ./sh/ch38.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch39.sh
+          ./sh/ch39.sh
+          
+      - name: Main
+        run: |
+          pwd
+          chmod +x sh/ch40.sh
+          ./sh/ch40.sh
           
       - name: git add
         run: |
